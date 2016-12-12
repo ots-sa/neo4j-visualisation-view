@@ -1,0 +1,31 @@
+{
+  "name": "neo4j-visualisation-view",
+  "description": "A neo4j client view with data visualization.",
+  "main": "app.js",
+  "authors": [
+    "ots-sa"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "alchemyjs": "^0.4.2",
+    "d3": "^4.4.0",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.17.2"
+  },
+  "resolutions": {
+    "d3": "~3.4.1",
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.1.1",
+    "lodash": "~2.4.1"
+  }
+}
