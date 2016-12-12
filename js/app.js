@@ -1,3 +1,19 @@
+var url = '';
+
+var data = fetch(url, {
+    method: 'GET',
+    mode: 'cors',
+    cache: 'default'
+  })
+  .then(function(response) {
+    return response.json()
+      .then(function(json) {
+
+      });
+  })
+  .catch(function(error) {
+    console.error(error);
+  });
 
 alchemy.begin({
   dataSource: {
